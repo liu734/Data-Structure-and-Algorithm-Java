@@ -1,0 +1,35 @@
+
+
+public class InfixToPostFix{
+  public static void main(String[] args){
+        Stack<String> operator = new Stack<String>();
+	Stack<String> postfix=new Stack<String>();
+        while (!StdIn.isEmpty()) {
+	  boolean isInteger;
+	  String item = StdIn.readString();
+	     try{
+	     Integer.parseInt(item);
+	      isInteger=true;
+	     }
+	     catch (Exception e){
+	      isInteger=false;
+	     }
+	  if(isInteger){
+	     postfix.push(Integer.parseInt(item));
+	  }
+	  else if(operator.peek)
+	     operator.push("item")
+      
+	  }
+	  
+	  
+
+
+
+  
+
+
+  }
+  
+
+}

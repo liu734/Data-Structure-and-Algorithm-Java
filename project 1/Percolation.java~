@@ -1,0 +1,22 @@
+
+
+public class Percolation{
+  In input =null;
+  int n;
+  
+  public Percolation(String url){
+  }
+  
+  public void open(int x,int y){}
+  public boolean isOpen(int x,int y){return true;}
+  public boolean isFull(int x,int y){return true;}
+  public boolean percolates(){return true;}
+  
+  public static void main(String[] args){
+    int n;
+    if (!StdIn.isEmpty()) n= StdIn.readInt();
+    while (!StdIn.isEmpty()) {
+  }
+
+  }
+}

@@ -1,0 +1,21 @@
+public class DequeTests{
+      public static void main(String[] args) {
+        Deque<String> q = new Deque<String>();
+	String test=StdIn.readString();
+	if(test.equals("1")){
+	int n=Integer.parseInt(StdIn.readString());
+	
+	while (!StdIn.isEmpty()){
+	    q.addLast(StdIn.readString());
+	}
+	
+
+	for(int i=0; i<n;i++){
+	   q.addLast(q.removeFirst());
+	}
+
+	
+	}
+        StdOut.println(q.toString());
+      }
+}

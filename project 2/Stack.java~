@@ -1,0 +1,13 @@
+public class Stack <Item> implements Iterable<String>{
+  public Stack(){}
+  public boolean isEmpty(){}
+  public int size(){}
+  public void push(Item item){}
+  public Item pop(Item item){}
+  public Item peek(Item item){}
+  public Item toString(Item item){}
+  public Iterator<Item> iterator(){}
+  public static void main(String[] args){}
+
+
+}
